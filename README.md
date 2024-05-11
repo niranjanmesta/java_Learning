@@ -14,4 +14,25 @@ JAVA BAsic
     .java Source file -> Javac -> bytecode.class file -> java -> output 
  2.4 Anatomy of a class 
 
-   public class MyFirstApp 
+   public class MyFirstApp {
+    public static void main (String[] args) {
+    System.out.println("hello World1");
+    }
+    }
+2.5 File extensions 
+  .java 
+  contains java Source code
+   High leve human Readable
+   used for Development 
+   file is editable 
+
+   .class 
+      contains java Bytecode 
+      For consumption of JVM 
+      used for Excution 
+      Not meant to be edited
+
+  2.6 jDK VS JVM JRE
+  .JDK 
+  Its a software development kit required to develop java  applications.
+  includes the JRE , an interpreter/loader(java),a compiler (javac),a 
